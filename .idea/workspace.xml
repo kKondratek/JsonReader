@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edf1df92-530b-4b9a-a807-4b0febb79221" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZgP6lRP0yYGFwMbMxDhxJp6UQg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kondratek.Main" />
+      <module name="Json Reader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kondratek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Json Reader" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#JAVA_HOME" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-Xms256m -Xmx2G" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+                <option value="alfresco:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.Json Reader" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edf1df92-530b-4b9a-a807-4b0febb79221" name="Default Changelist" comment="" />
+      <created>1585257590705</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585257590705</updated>
+      <workItem from="1585257593398" duration="31685000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Inspections" timestamp="1585308136794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Inspections/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585308136794" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585257920327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585257920327" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585303100197">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585303100197" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585262914610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585262914610" />
+    <state width="1875" height="2" key="GridCell.Tab.0.bottom" timestamp="1585316787764">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="2" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585316787764" />
+    <state width="1875" height="2" key="GridCell.Tab.0.center" timestamp="1585316787764">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="2" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585316787764" />
+    <state width="1875" height="2" key="GridCell.Tab.0.left" timestamp="1585316787763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="2" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585316787763" />
+    <state width="1875" height="2" key="GridCell.Tab.0.right" timestamp="1585316787764">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="2" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585316787764" />
+    <state width="1875" height="347" key="GridCell.Tab.1.bottom" timestamp="1585304274995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="347" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585304274995" />
+    <state width="1875" height="347" key="GridCell.Tab.1.center" timestamp="1585304274995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="347" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585304274995" />
+    <state width="1875" height="347" key="GridCell.Tab.1.left" timestamp="1585304274995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="347" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585304274995" />
+    <state width="1875" height="347" key="GridCell.Tab.1.right" timestamp="1585304274995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="347" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585304274995" />
+    <state x="625" y="219" key="NewModule_or_Project.wizard" timestamp="1585262879356">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="219" key="NewModule_or_Project.wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585262879356" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1585264120239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585264120239" />
+    <state x="690" y="286" key="extract.method.dialog" timestamp="1585316766834">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="286" key="extract.method.dialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585316766834" />
+    <state x="342" y="222" key="new project wizard" timestamp="1585262941754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="222" key="new project wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585262941754" />
+  </component>
+</project>
