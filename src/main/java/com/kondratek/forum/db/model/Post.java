@@ -1,4 +1,4 @@
-package com.kondratek;
+package com.kondratek.forum.db.model;
 
 import org.json.JSONObject;
 
@@ -10,7 +10,10 @@ public class Post {
     private String body;
 
     public Post(JSONObject jsonObject) {
-        parseJson(jsonObject);
+        userId = jsonObject.getInt("userId");
+        id = jsonObject.getInt("id");
+        title = jsonObject.getString("title");
+        body = jsonObject.getString("body");
     }
 
     public int getUserId() {
@@ -21,18 +24,15 @@ public class Post {
         return title;
     }
 
-    private void parseJson(JSONObject jsonObject) {
-        userId = jsonObject.getInt("userId");
-        id = jsonObject.getInt("id");
-        title = jsonObject.getString("title");
-        body = jsonObject.getString("body");
-    }
-
     @Override
     public String toString() {
         return "userId: " + userId +
                 "\nid: " + id +
                 "\ntitle: " + title +
                 "\nbody: " + body;
+    }
+
+    public int getId() {
+        return id;
     }
 }
