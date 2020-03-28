@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edf1df92-530b-4b9a-a807-4b0febb79221" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kondratek/forum/ForumManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kondratek/forum/UserDistanceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kondratek/forum/db/ForumDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kondratek/forum/db/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kondratek/forum/db/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kondratek/forum/ForumManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kondratek/forum/db/UserDistanceManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kondratek/DistanceManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kondratek/ForumData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kondratek/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kondratek/JsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kondratek/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kondratek/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kondratek/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kondratek/forum/db/model/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kondratek/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kondratek/JsonReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kondratek/JsonReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kondratek/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kondratek/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kondratek/Post.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kondratek/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kondratek/forum/ForumManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kondratek/forum/ForumManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kondratek/forum/ForumManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/kondratek/forum/ForumManagerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,22 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForumManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Json Reader" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kondratek.forum.db.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kondratek.forum.db" />
-      <option name="MAIN_CLASS_NAME" value="com.kondratek.forum.db.ForumManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForumManagerTest.fetchUsersFromURL_postWithoutUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ForumManagerTest.getNonUniqueTitles_singlePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Json Reader" />
       <extension name="coverage">
         <pattern>
@@ -151,23 +119,40 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kondratek.forum" />
       <option name="MAIN_CLASS_NAME" value="com.kondratek.forum.ForumManagerTest" />
-      <option name="METHOD_NAME" value="fetchUsersFromURL_postWithoutUser" />
+      <option name="METHOD_NAME" value="getNonUniqueTitles_singlePost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDistanceManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ForumManagerTest.getNonUniqueTitles_twoEqualTitles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Json Reader" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kondratek.forum.db.model.*" />
+          <option name="PATTERN" value="com.kondratek.forum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kondratek.forum.db" />
-      <option name="MAIN_CLASS_NAME" value="com.kondratek.forum.db.UserDistanceManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.kondratek.forum" />
+      <option name="MAIN_CLASS_NAME" value="com.kondratek.forum.ForumManagerTest" />
+      <option name="METHOD_NAME" value="getNonUniqueTitles_twoEqualTitles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForumManagerTest.getNonUniqueTitles_twoUniqueTitles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Json Reader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kondratek.forum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kondratek.forum" />
+      <option name="MAIN_CLASS_NAME" value="com.kondratek.forum.ForumManagerTest" />
+      <option name="METHOD_NAME" value="getNonUniqueTitles_twoUniqueTitles" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,19 +201,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.UserDistanceManagerTest" />
-      <item itemvalue="JUnit.ForumManagerTest" />
       <item itemvalue="JUnit.ForumManagerTest (1)" />
-      <item itemvalue="JUnit.ForumManagerTest.fetchUsersFromURL_postWithoutUser" />
       <item itemvalue="Maven.Json Reader" />
+      <item itemvalue="JUnit.ForumManagerTest.getNonUniqueTitles_singlePost" />
+      <item itemvalue="JUnit.ForumManagerTest.getNonUniqueTitles_twoEqualTitles" />
+      <item itemvalue="JUnit.ForumManagerTest.getNonUniqueTitles_twoUniqueTitles" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ForumManagerTest (1)" />
-        <item itemvalue="JUnit.ForumManagerTest.fetchUsersFromURL_postWithoutUser" />
-        <item itemvalue="JUnit.UserDistanceManagerTest" />
-        <item itemvalue="JUnit.ForumManagerTest" />
+        <item itemvalue="JUnit.ForumManagerTest.getNonUniqueTitles_twoUniqueTitles" />
+        <item itemvalue="JUnit.ForumManagerTest.getNonUniqueTitles_singlePost" />
+        <item itemvalue="JUnit.ForumManagerTest.getNonUniqueTitles_twoEqualTitles" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +228,8 @@
       <option name="presentableId" value="Default" />
       <updated>1585257590705</updated>
       <workItem from="1585257593398" duration="48909000" />
+      <workItem from="1585348904594" duration="625000" />
+      <workItem from="1585397725790" duration="2281000" />
     </task>
     <servers />
   </component>
@@ -278,38 +265,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585262914610" />
-    <state width="1875" height="95" key="GridCell.Tab.0.bottom" timestamp="1585348841299">
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1585400024271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="95" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585348841299" />
-    <state width="1875" height="95" key="GridCell.Tab.0.center" timestamp="1585348841298">
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585400024271" />
+    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1585400024271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="95" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585348841298" />
-    <state width="1875" height="95" key="GridCell.Tab.0.left" timestamp="1585348841298">
+    <state width="1877" height="269" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585400024271" />
+    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1585400024271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="95" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585348841298" />
-    <state width="1875" height="95" key="GridCell.Tab.0.right" timestamp="1585348841298">
+    <state width="1877" height="269" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585400024271" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1585400024271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="95" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585348841298" />
-    <state width="1875" height="95" key="GridCell.Tab.1.bottom" timestamp="1585348841299">
+    <state width="1877" height="269" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585400024271" />
+    <state width="1877" height="52" key="GridCell.Tab.1.bottom" timestamp="1585399295463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="95" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585348841299" />
-    <state width="1875" height="95" key="GridCell.Tab.1.center" timestamp="1585348841299">
+    <state width="1877" height="52" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585399295463" />
+    <state width="1877" height="52" key="GridCell.Tab.1.center" timestamp="1585399295463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="95" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585348841299" />
-    <state width="1875" height="95" key="GridCell.Tab.1.left" timestamp="1585348841299">
+    <state width="1877" height="52" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585399295463" />
+    <state width="1877" height="52" key="GridCell.Tab.1.left" timestamp="1585399295462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="95" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585348841299" />
-    <state width="1875" height="95" key="GridCell.Tab.1.right" timestamp="1585348841299">
+    <state width="1877" height="52" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585399295462" />
+    <state width="1877" height="52" key="GridCell.Tab.1.right" timestamp="1585399295463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="95" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585348841299" />
+    <state width="1877" height="52" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585399295463" />
     <state x="625" y="219" key="NewModule_or_Project.wizard" timestamp="1585262879356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
