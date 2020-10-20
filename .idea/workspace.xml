@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="edf1df92-530b-4b9a-a807-4b0febb79221" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kondratek/forum/ForumManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kondratek/forum/ForumManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kondratek/forum/ForumManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/kondratek/forum/ForumManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kondratek/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kondratek/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kondratek/forum/ForumManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kondratek/forum/ForumManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +60,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1ZgP6lRP0yYGFwMbMxDhxJp6UQg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -82,14 +105,27 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.kondratek.Main" />
-      <module name="Json Reader" />
+      <module name="JsonReader" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kondratek.forum.db.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,10 +238,10 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ForumManagerTest (1)" />
-      <item itemvalue="Maven.Json Reader" />
       <item itemvalue="JUnit.ForumManagerTest.getNonUniqueTitles_singlePost" />
       <item itemvalue="JUnit.ForumManagerTest.getNonUniqueTitles_twoEqualTitles" />
       <item itemvalue="JUnit.ForumManagerTest.getNonUniqueTitles_twoUniqueTitles" />
+      <item itemvalue="Maven.Json Reader" />
     </list>
     <recent_temporary>
       <list>
@@ -217,6 +253,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -230,135 +267,28 @@
       <workItem from="1585257593398" duration="48909000" />
       <workItem from="1585348904594" duration="625000" />
       <workItem from="1585397725790" duration="2281000" />
+      <workItem from="1603189284342" duration="821000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Inspections" timestamp="1585308136794">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1603190052279">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="178" key="#Inspections/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585308136794" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585257920327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585257920327" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585337820515">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585337820515" />
-    <state x="626" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585342422028">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="626" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585342422028" />
-    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585342529143">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585342529143" />
-    <state x="469" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585343156998">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="469" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585343156998" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585262914610">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585262914610" />
-    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1585400024271">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585400024271" />
-    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1585400024271">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585400024271" />
-    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1585400024271">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585400024271" />
-    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1585400024271">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585400024271" />
-    <state width="1877" height="52" key="GridCell.Tab.1.bottom" timestamp="1585399295463">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="52" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585399295463" />
-    <state width="1877" height="52" key="GridCell.Tab.1.center" timestamp="1585399295463">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="52" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585399295463" />
-    <state width="1877" height="52" key="GridCell.Tab.1.left" timestamp="1585399295462">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="52" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585399295462" />
-    <state width="1877" height="52" key="GridCell.Tab.1.right" timestamp="1585399295463">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="52" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585399295463" />
-    <state x="625" y="219" key="NewModule_or_Project.wizard" timestamp="1585262879356">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="625" y="219" key="NewModule_or_Project.wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585262879356" />
-    <state x="775" y="454" key="ReplaceDuplicatesPrompt" timestamp="1585334791371">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="775" y="454" key="ReplaceDuplicatesPrompt/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585334791371" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1585264120239">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585264120239" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1585333600454">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585333600454" />
-    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1585345253060">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="776" y="298" key="chooseDestDirectoryDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585345253060" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585348904912">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585348904912" />
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585338251900">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585338251900" />
-    <state x="731" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585338256193">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="731" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585338256193" />
-    <state x="690" y="286" width="540" height="496" key="extract.method.dialog" timestamp="1585339736287">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="286" width="540" height="496" key="extract.method.dialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585339736287" />
-    <state x="342" y="222" key="new project wizard" timestamp="1585262941754">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="342" y="222" key="new project wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585262941754" />
-    <state x="666" y="139" key="refactoring.ChangeSignatureDialog" timestamp="1585346134716">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="666" y="139" key="refactoring.ChangeSignatureDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585346134716" />
-    <state x="615" y="240" key="run.anything.popup" timestamp="1585333150508">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="615" y="240" key="run.anything.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585333150508" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585337558499">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585337558499" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/kondratek/JsonReader.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="600" height="428" key="javadoc.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603190052279" />
   </component>
 </project>

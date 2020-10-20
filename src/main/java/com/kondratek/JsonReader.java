@@ -14,11 +14,17 @@ import java.nio.charset.StandardCharsets;
 
 public class JsonReader {
 
+    /**
+    * @return array of JSON objects received from url
+    */
     public static JSONArray readJsonArrayFromUrl(String url) throws IOException, JSONException {
         String jsonText = fetchJsonString(url);
         return new JSONArray(jsonText);
     }
 
+    /**
+     * @return JSON object received from url
+     */
     public static JSONObject readJsonObjectFromUrl(String url) throws IOException, JSONException {
         String jsonText = fetchJsonString(url);
         return new JSONObject(jsonText);

@@ -46,7 +46,7 @@ public class ForumManager {
 
     public List<String> getUsersPostsCount() {
         return forumDb.getUsers().stream()
-                .map(user -> String.format("%s napisał(a) %d postów", user.getUserName(), user.getPosts().size()))
+                .map(user -> String.format("%s writed %d posts", user.getUserName(), user.getPosts().size()))
                 .collect(Collectors.toList());
     }
 
